@@ -24,3 +24,15 @@ Include plots of latency vs accuracy, energy profiling charts, screenshots of de
 Object detection, face recognition on smartphones/IoT devices.
 - Contributing & License
 Encourage collaboration, specify license (MIT, Apache 2.0, etc.).
+
+Related works on efficient deep learning
+MicroNet for Efficient Language Modeling
+
+Lite Transformer with Long-Short Range Attention
+
+AMC: AutoML for Model Compression and Acceleration on Mobile Devices
+
+Once-for-All: Train One Network and Specialize it for Efficient Deployment
+
+ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
+
