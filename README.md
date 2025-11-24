@@ -1,9 +1,6 @@
-- Project Title & Tagline
-Hardware-Aware NAS for Edge Deployment: Optimized AI for Mobile & IoT
-
 - Overview
 Short description of what NAS is and why hardware-aware optimization matters.
-
+https://project.autocoder.cc/PROJ_dac37f19/admindashboardpage
 - Features
 - Real-time latency measurement
 - Energy consumption profiling
