@@ -1,62 +1,29 @@
-# Baseline Face Recognition Model Training
+- Project Title & Tagline
+Hardware-Aware NAS for Edge Deployment: Optimized AI for Mobile & IoT
 
-This project contains a baseline model training pipeline for face recognition dataset using PyTorch.
+- Overview
+Short description of what NAS is and why hardware-aware optimization matters.
 
-## Requirements
+- Features
+- Real-time latency measurement
+- Energy consumption profiling
+- Quantization-aware architecture search
+- Deployment on smartphones/embedded systems
+- Tech Stack
+TensorFlow Lite, PyTorch Mobile, ONNX Runtime, AutoKeras/NNI
 
-- Python 3.7+
-- PyTorch
-- torchvision
+- Installation
+git clone https://github.com/yourusername/hardware-aware-nas.git
+cd hardware-aware-nas
+pip install -r requirements.txt
 
-## Setup
+- Usage
+python src/nas/run_search.py --config configs/mobile_search.yaml
+python src/deployment/export_tflite.py --model best_model.pth
 
-1. Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-2. Activate the virtual environment:
-
-- Windows:
-  ```bash
-  .\venv\Scripts\activate
-  ```
-- Linux/macOS:
-  ```bash
-  source venv/bin/activate
-  ```
-
-3. Install required packages:
-
-```bash
-pip install torch torchvision
-```
-
-## Usage
-
-Prepare your face recognition dataset in ImageFolder format with subdirectories per class/person:
-
-```
-dataset/
-├── person1/
-│   ├── img1.jpg
-│   ├── img2.jpg
-├── person2/
-│   ├── img1.jpg
-│   ├── img2.jpg
-...
-```
-
-Run the training script:
-
-```bash
-python train_baseline.py --data_dir path/to/dataset --batch_size 32 --epochs 20 --lr 0.001 --checkpoint_path model.pth
-```
-
-The best model checkpoint will be saved at the specified path.
-
-## Notes
-
-- This is a baseline model using ResNet18 pretrained on ImageNet for face recognition classification.
-- You can modify `train_baseline.py` to customize data augmentation, model architecture, or loss functions.
+- Results
+Include plots of latency vs accuracy, energy profiling charts, screenshots of deployment on mobile.
+- Applications
+Object detection, face recognition on smartphones/IoT devices.
+- Contributing & License
+Encourage collaboration, specify license (MIT, Apache 2.0, etc.).
